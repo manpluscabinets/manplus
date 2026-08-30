@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>نمونه کارهای ما</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- خطوط منحنی طلایی -->
+    <div class="gold-line line-one"></div>
+    <div class="gold-line line-two"></div>
+    <div class="gold-line line-three"></div>
+
+    <!-- عنوان صفحه -->
+    <section class="portfolio-page">
+
+        <div class="portfolio-header">
+            <span> کیفیت عالی، متریال درجه‌یک و طراحی حرفه‌ای؛ امضای مان پلاس در هر پروژه</span>
+
+            <h1>    طرح های شیک و روز دنیا با فضای منزل و اتاق شما</h1>
+
+            <p>
+                تیم با تجربه مان پلاس با بیش از 20 سال سابقه کار و ساخت کابینت شگفتی را رقم می زند
+            </p>
+        </br>
+        </br>
+            <span>✦</span>
+            <span>✦</span>
+            <span>✦</span>
+            <span>✦</span>
+            <span>✦</span>
+             <span>✦</span>
+              <span>✦</span>
+               <span>✦</span>
+                <span>✦</span>
+                 <span>✦</span>
+
+                 
+        </div>
+
+
+        <!-- گالری عکس‌ها -->
+        <div class="portfolio-gallery">
+
+            <div class="portfolio-item">
+                <img src="images/7.jpg" alt="نمونه کار ۱">
+            </br>
+            </br>
+            <p>  زیبایی در اوج ظرافت </p>
+            </div>
+
+            <div class="portfolio-item">
+                <img src="images/13.jpg" alt="نمونه کار ۲">
+                </br>
+                </br>
+            <p>   خاص تر از همیشه   </p>
+            </div>
+
+            <div class="portfolio-item">
+                <img src="images/9.jpg" alt="نمونه کار ۳">
+                </br>
+                </br>
+            <p>    طراحی برای متفاوت بودن  </p>
+            </div>
+
+            <div class="portfolio-item">
+                <img src="images/6.jpg" alt="نمونه کار ۴">
+                </br>
+                </br>
+            <p>   کیفیتی که دیده می شود   </p>
+            </div>
+
+            <div class="portfolio-item">
+                <img src="images/5.jpg" alt="نمونه کار ۵">
+                </br>
+                </br>
+            <p>     جزئیات , تفاوت را می سازد </p>
+            </div>
+
+            <div class="portfolio-item">
+                <img src="images/2.jpg" alt="نمونه کار ۶">
+                </br>
+                </br>
+            <p>   یک انتخاب ماندگار   </p>
+            </div>
+
+            <div class="portfolio-item">
+                <img src="images/4.jpg" alt="نمونه کار ۷">
+                </br>
+                </br>
+            <p>     زیبایی که نگاه را می گیرد </p>
+            </div>
+
+            <div class="portfolio-item">
+                <img src="images/11.jpg" alt="نمونه کار ۸">
+                </br>
+                </br>
+            <p>     خاص , شیک , ماندگار </p>
+            </div>
+
+            <div class="portfolio-item">
+                <img src="images/10.jpg" alt="نمونه کار ۹">
+                 </br>
+                 </br>
+            <p>     تفاوت را احساس کنید </p>
+            </div>
+
+            <div class="portfolio-item">
+                <img src="images/1.jpg" alt="نمونه کار ۱۰">
+                 </br>
+                 </br>
+            <p>      فراتر از یک طراحی</p>
+            </div>
+
+              <div class="portfolio-item">
+                <img src="images/14.jpg" alt="نمونه کار 11">
+                 </br>
+                 </br>
+            <p>     وقتی کیفیت حرف اول را می زند </p>
+            </div>
+
+              <div class="portfolio-item">
+                <img src="images/12.jpg" alt="نمونه کار 12">
+                 </br>
+                 </br>
+            <p>     ساخته شده برای بهترین ها </p>
+            </div>
+
+              <div class="portfolio-item">
+                <img src="images/3.jpg" alt="نمونه کار 13">
+                 </br>
+                 </br>
+            <p>     طرافت در هر جزئیات </p>
+            </div>
+
+              <div class="portfolio-item">
+                <img src="images/17.jpg" alt="نمونه کار 14">
+                 </br>
+                </br>
+            <p>     انتخابی برای خاص پسندان </p>
+            </div>
+
+              <div class="portfolio-item">
+                <img src="images/16.jpg" alt="نمونه کار 15">
+                 </br>
+                 </br>
+            <p>     زیبایی با امضای مان پلاس </p>
+            </div>
+
+              <div class="portfolio-item">
+                <img src="images/10.jpg" alt="نمونه کار 16">
+                 </br>
+                 </br>
+            <p>     هر پروژه یک شاهکار </p>
+            </div>
+        </div>
+
+
+        <!-- بازگشت به صفحه اصلی -->
+        <div class="back-home">
+            <a href="index.html">بازگشت به صفحه اصلی</a>
+        </div>
+
+    </section>
+<div id="imageModal" class="image-modal portfolio-modal">
+
+    <span id="closeModal">&times;</span>
+
+    <img id="modalImage" src="" alt="">
+
+</div>
+
+<script>
+
+const images = document.querySelectorAll(".portfolio-item img");
+
+const imageModal = document.getElementById("imageModal");
+
+const modalImage = document.getElementById("modalImage");
+
+const closeModal = document.getElementById("closeModal");
+
+
+images.forEach(function(image) {
+
+    image.addEventListener("click", function() {
+
+        modalImage.src = image.src;
+
+        modalImage.alt = image.alt;
+
+        imageModal.style.display = "flex";
+
+    });
+
+});
+
+
+closeModal.addEventListener("click", function() {
+
+    imageModal.style.display = "none";
+
+});
+
+
+imageModal.addEventListener("click", function(event) {
+
+    if (event.target === imageModal) {
+
+        imageModal.style.display = "none";
+
+    }
+
+});
+
+</script>
+</body>
+
+</html>
