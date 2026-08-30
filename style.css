@@ -175,13 +175,13 @@ body {
 }
 
 .menu-btn:hover {
-    color: #c9953d;
-    background: #111111;
+    color: #111111;
+    background: #c9953d;
 }
 
 .menu-btn.active {
     color: #111111;
-    background: #111111;
+    background: #c9953d;
     border-color: #c9953d;
 }
 
