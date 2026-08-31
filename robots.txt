@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://manpluscabinets.github.io/manplus/sitemap.xml
