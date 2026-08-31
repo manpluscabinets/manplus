@@ -2462,3 +2462,52 @@ body {
         width: 100%;
     }
 }
+/* ===== منوی بالای صفحه مان پلاس ===== */
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 18px 5%;
+    background: #000;
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+header nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 16px;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    transition: 0.3s ease;
+}
+
+header nav a:hover,
+header nav a.active {
+    color: #d6a34a;
+    border-color: #d6a34a;
+}
+
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        gap: 18px;
+    }
+
+    header nav {
+        width: 100%;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    header nav a {
+        font-size: 14px;
+        padding: 8px 12px;
+    }
+}
